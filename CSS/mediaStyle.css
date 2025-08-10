@@ -1,11 +1,8 @@
-@media (max-width: 1100px){
-.section1{
-  height: 800px;
-  }
+/* PANTALLAS MEDIANAS */
 
+@media (max-width: 1100px){
   .section1 h1{
-    font-size: 100px;
-    margin-bottom: 1px;;
+    font-size: 110px;
   }
 }
 
@@ -13,7 +10,7 @@
 @media (max-width: 750px) {
   .nav {
     position: absolute;
-    top: 60px; /* altura del header */
+    top: 60px;
     right: 0;
     background: var(--primer-color);
     flex-direction: column;
@@ -36,13 +33,73 @@
     display: flex;
   }
 
-  .section1{
-    height: 650px;
-  }
+  /* SECTION 1 */
 
   .section1 h1{
-    width: 95%;
-    margin-bottom: -30px;
     font-size: 65px;
+  }
+
+  /* SECTION 2 */
+
+  .section2{
+    background: linear-gradient(to bottom, #E4E5DF 60%, #B3B6AB 70%);
+  }
+
+  .section2 article{
+    width:90%;
+    align-content: center;
+  }
+
+  /* SECTION 3*/
+
+  .section3 article{
+    border-bottom: 0.5px solid #282927;
+  }
+
+  article .trabajoImg{
+  width: 80%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  }
+
+  .trabajoImg img{
+  width: 90%;
+  border-radius: 30px;
+  }
+
+
+  article .trabajoText{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  }
+}
+
+/* MOVIL PANTALLA PEQUEÑA */
+/* PRUEBAS CON IPHONE SE, XR, 14 PRO MAX */
+
+@media (max-width: 436px) {
+  .section1 h1{
+    font-size: 55px;
+  }
+
+  .section2 a{
+    font-size: 24px; /* FUENTE MÁS GRANDE PARA EL PULGAR */ 
+    margin-left: 40%;/* BOTON A LA DERECHA, MAS CÓMODO PARA EL USUARIO */
+    padding: 3px 20px 3px 20px;
+  }
+
+  .section3 h2{
+    font-size: 50px;
+  }
+
+  .button{
+    font-size: 24px;
+    padding: 3px 20px 3px 20px;
+    width: 55%;
+    margin-left: 40%;
   }
 }
