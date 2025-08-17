@@ -76,6 +76,12 @@
   justify-content: center;
   margin-bottom: 50px;
   }
+
+  /* SECTION 3 */
+  .contactoContenedor {
+      grid-template-columns: 1fr;
+    }
+
 }
 
 /* MOVIL PANTALLA PEQUEÑA */
