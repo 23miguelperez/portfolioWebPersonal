@@ -49,7 +49,7 @@ header {
 }
 
 .logo {
- width: 50px;
+ width: 45px;
 }
 
 .nav {
@@ -237,7 +237,7 @@ header {
   font-family: "wesker";
   text-transform: uppercase;
   font-size: 60px;
-  width: 90%;
+  width: 75%;
   margin-bottom: 50px;
   color: var(--segundo-color);
 }
@@ -287,8 +287,12 @@ section.contacto {
 }
 
 .contacto h2{
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-family: "wesker";
+  text-transform: uppercase;
+  font-size: 60px;
+  width: 90%;
+  margin-bottom: 50px;
+  color: var(--segundo-color);
 }
 
 .contactoContenedor {
